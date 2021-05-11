@@ -1,6 +1,8 @@
 ## Overview
 
-This sample demonstrates a JavaScript single-page application that lets users authenticate against [Azure Active Directory B2C](https://azure.microsoft.com/services/active-directory/external-identities/b2c/) (Azure AD B2C) using the [Microsoft Authentication Library for JavaScript](https://github.com/AzureAD/microsoft-authentication-library-for-js) (MSAL.js) and authorize them to call a web API that is also protected by **Azure AD B2C**. The sample is taken from this [quickstart guide](https://docs.microsoft.com/en-us/azure/active-directory-b2c/quickstart-single-page-app)
+This sample demonstrates a JavaScript single-page application that lets users authenticate against [Azure Active Directory B2C](https://azure.microsoft.com/services/active-directory/external-identities/b2c/) (Azure AD B2C) using the [Microsoft Authentication Library for JavaScript](https://github.com/AzureAD/microsoft-authentication-library-for-js) (MSAL.js) and authorize them to call a web API that is also protected by **Azure AD B2C**. The sample is taken from this [quickstart guide](https://docs.microsoft.com/en-us/azure/active-directory-b2c/quickstart-single-page-app).
+
+The application contains a game called Brick Buster and lets authenticated users save their scores by calling the protected web api.
 
 ## More information
 
